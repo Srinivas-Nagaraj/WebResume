@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boundary{
+    width: 80%;
+    margin: auto;
+    background-image:linear-gradient(to right,white 65%,rgb(44, 201, 175));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.mainsection-1{
+    display: flex;
+    
+}
+.mainsection-2{
+    padding: 20px;
+    border-left: 10px solid rgb(44, 201, 175);
+    border-radius: 20px;
+}
+.mainsection-3{
+    padding: 20px;
+    border-left: 10px solid rgb(44, 201, 175);
+    border-radius: 20px;
+}
+.mainsection-4{
+    padding: 20px;
+    border-left: 10px solid rgb(44, 201, 175);
+    border-radius: 20px;
+}
+.mainsection-5{
+    padding: 20px;
+    border-left: 10px solid rgb(44, 201, 175);
+    border-radius: 20px;
+}
+.about{
+    width: 70%;
+    padding: 100px;
+   
+}
+.photo{
+    width: 30%;
+    padding: 30px;
+}
+.listing{
+    list-style: none;
+}
+img{
+    width: 70%;
+    height: 250px;
+    min-width: 100px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.seperator{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table{
+    justify-content: center;
+    display: flex;
+}
+th,td{
+    padding: 5px;
+}
+td{
+    text-align: center;
+}
+.sets{
+    display: flex;
+}
+.sets div:first-child{
+    width: 40%;
+    padding-left: 40px;
+}
+.sets div:last-child{
+    width: 60%;
+}
+.progression{
+    width: 90%;
+}
+.details{
+    display: flex;
+}
+.details div:first-child{
+    width:40%;
+    padding-left: 20px;
+}
+.details div:last-child{
+    width:60%; 
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-size: 1.5rem;    
+}
+.header1:hover{
+    color:rgba(120, 68, 241, 0.979);
+    font-size: xx-large;
+    font-variant:small-caps;
+    font-stretch:semi-expanded;
+}
+.header2:hover{
+    color: rgba(120, 68, 241, 0.979);
+    font-size: xx-large;
+    font-variant: small-caps;
+}   
+.header3:hover{
+    color: rgba(120, 68, 241, 0.979);
+    font-size: xx-large;
+    font-variant: small-caps;
+} 
+.header4:hover{
+    color: rgba(120, 68, 241, 0.979);
+    font-size: xx-large;
+    font-variant: small-caps;
+} 
+.header5:hover{
+    color: rgba(120, 68, 241, 0.979);
+    font-size: xx-large;
+    font-variant: small-caps;
+} 
+    
+.sticky{
+    top: 0px;
+    text-align: center;
+    position: sticky;
+    color: cornsilk;
+    background-color: aquamarine;
+    height: 70px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 70%,black 95%);  
+    font-size:xx-large; 
+}
+.table:hover{
+    animation-name: effect;
+    animation-duration: 5s; 
+    animation-timing-function: ease;  
+    animation-fill-mode: forwards;
+    z-index: 2;
+    transform: translate(0%,10%);
+}
+@keyframes effect{
+    from{
+        opacity: 0;
+        height: 100vh;
+    }
+    to{
+        opacity: 1;
+        height: 30vh;
+    }
+}
+.content:hover{
+    animation-name: effect;
+    animation-duration: 5s; 
+    animation-timing-function: ease;  
+    animation-fill-mode: forwards;
+    z-index: 2;
+    transform: translate(0%,10%);
+}
+@keyframes effect{
+    from{
+        opacity: 0;
+        height: 100vh;
+    }
+    to{
+        opacity: 1;
+        height: 30vh;
+    }
+}
+.photo:hover{
+    animation-name: effect;
+    animation-duration: 5s; 
+    animation-timing-function: ease;  
+    animation-fill-mode: forwards;
+    z-index: 2;
+    transform: translate(0%,2%);
+}
+@keyframes effect{
+    from{
+        opacity: 0;
+        height: 100vh;
+    }
+    to{
+        opacity: 1;
+        height: 30vh;
+    }
+}
+.boundary:hover{
+    animation-name: effect;
+    animation-duration: 5s; 
+    animation-timing-function: ease;  
+    animation-fill-mode: forwards;
+    z-index: 2;
+    transform: translate(0%,2%);
+}
+@keyframes effect{
+    from{
+        opacity: 0;
+        height: 100vh;
+    }
+    to{
+        opacity: 1;
+        height: 30vh;
+    }
+}
